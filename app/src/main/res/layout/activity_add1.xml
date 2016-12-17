@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dbfff9"
+    android:orientation="vertical"
+    tools:context=".Ui.ActivityAdd1">
+
+    <EditText
+        android:maxLength="25"
+        android:id="@+id/et_OwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:hint="Enter Owner Name Here !"
+        android:paddingTop="10dp"
+        android:textSize="25sp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:id="@+id/et_NumberOfCars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:hint="Enter Number Of Cars"
+        android:paddingTop="10dp"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/bt_add_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+</LinearLayout>
